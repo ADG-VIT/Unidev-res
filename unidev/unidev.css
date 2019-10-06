@@ -1,0 +1,97 @@
+        body
+        {
+            font-family:"Helvetica";
+            margin: 0%;
+            padding: 0%;
+            height: 100%;
+            width: 100%;   
+            color: white; 
+            word-spacing: 5px;        
+        }
+        .back
+        {
+            background-image: url("desktop.png") ;
+            background-attachment: scroll;
+            background-size: cover;
+            background-repeat: no-repeat; 
+            margin: 0%; 
+        }
+        .logo
+        {
+            margin-top:1%;
+            height: 0.1%;
+            width: 35%;
+        }
+        .unidev
+        {
+            font-size: 85px;
+        }
+        .augment
+        {
+            font-size:65px; 
+            padding: 5%;
+        }
+        .but
+        {
+            padding-bottom: 5%;
+        }
+        .but1
+        {
+            margin:2%;
+            background-color:black;
+            border:none;
+            color:white;
+            padding:2% 2%;
+            text-align:center;
+            font-size:35px;
+            border-radius:6px;    
+        }
+        
+        .aboutabout
+        {
+            font-size: 30px;   
+            text-align: left;
+            margin-left: 10%;
+        }
+        .abouttext
+        {
+            font-size: 15px;
+            margin-left:10%;
+            margin-right: 10%;
+            margin-top: 1.5%;
+            padding-bottom: 3%;
+            text-align: justify;
+            line-height: 23px;
+        }
+        @media only screen and (max-width: 600px)
+        {
+            .back
+            {
+                background-image:url(mobile.png);
+            }
+
+            .abouttext
+            {
+                font-size:12px;
+                line-height: 15px;
+            }
+            .logo
+            {
+                width:60%;
+            }
+            .augment
+            {
+                font-size:45px;
+            }
+            .unidev
+            {
+                font-size: 60px;
+            }
+            .but1
+            {
+                font-size: 15px;
+            }
+
+            
+        }
+        
